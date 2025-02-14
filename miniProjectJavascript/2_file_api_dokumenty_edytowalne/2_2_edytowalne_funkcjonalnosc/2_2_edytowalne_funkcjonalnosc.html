@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<head>
+<meta charset="utf-8">
+<title>Dokument edytowalny</title>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<script type="text/javascript">
+
+	function usunZaznaczenie(){
+		document.execCommand('delete', false, null);
+	}
+	function dodajPogrubienie(){
+		document.execCommand('bold', false, null);
+	}
+	function dodajPochylenie(){
+		document.execCommand('italic', false, null);
+	}
+
+</script>
+
+</head>
+
+<body>
+
+    <div class="container">
+    	<h1>Dokument edytowalny</h1>
+        <div id="edytor" contenteditable="true">
+        	<p>To jest edytowalny DIV</p>
+        </div>
+        <input type="button" id="usun" value="Usuń" onClick="usunZaznaczenie()"/>
+        <input type="button" id="pogrubienie" value="Bold" onClick="dodajPogrubienie()"/>
+        <input type="button" id="pochylenie" value="Italic" onClick="dodajPochylenie()"/>
+    </div>
+    
+</body>
+</html>

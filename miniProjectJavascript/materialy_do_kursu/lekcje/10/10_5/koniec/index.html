@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Przydatne techniki</title>
+</head>
+<body>
+
+	<header>
+		<nav>
+			<ul>
+				<li><a href="">Start</a></li>
+				<li><a href="">Oferta</a></li>
+				<li><a href="">Portfolio</a></li>
+				<li><a href="">Kontakt</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main role="main">
+		<details open>
+			<summary>Nielimitowany dostęp</summary>
+			<p>Oglądasz kursy gdzie chcesz i kiedy chcesz.</p>
+		</details>
+		<details open>
+			<summary>Stałe aktualizacje</summary>
+			<p>Szkolenie będzie na bieżąco aktualizowane, a Ty będziesz miał dostęp do wszystkich nowych lekcji.</p>
+		</details>
+	</main>
+	<footer>To jest stopka strony</footer>
+	<script src="modernizr-custom.js"></script>
+	<script>
+		if(Modernizr.details){
+			alert('Twoja przeglądarka obsługuje DETAILS');
+		} else {
+			alert('Twoja przeglądarka NIE obsługuje DETAILS');
+		}
+	</script>
+</body>
+</html>

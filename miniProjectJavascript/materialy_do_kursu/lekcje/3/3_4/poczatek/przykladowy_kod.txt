@@ -1,0 +1,5 @@
+.zewn { 
+background: #354f5d;
+width: 750px;
+height: 600px;
+}

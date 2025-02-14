@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<head>
+<meta charset="utf-8">
+<title>Formularze - wprowadzenie</title>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<script type="text/javascript" src="scripts/modernizr.custom.49736.js"></script>
+<script type="text/javascript" src="scripts/placeholder.min.js"></script>
+
+</head>
+
+<body>
+
+    <h1>Formularze</h1>
+    
+    <form action="#" method="get">
+    	<p><label for="imie">Imię</label><input name="imie" type="text" id="imie" placeholder="Wprowadź imię"/></p>
+        <p><label for="nazw">Nazwisko</label><input name="nazw" type="text" id="nazw" placeholder="Wprowadź nazwisko"/></p>
+        <p><label for="wiek">Wiek</label><input name="wiek" type="text" id="wiek" /></p>
+        <p><label for="kraj">Kraj</label><input name="kraj" type="text" id="kraj" /></p>
+        <p><input type="submit" value="Wyślij" id="submit" /></p>
+    </form>
+
+<script type="text/javascript">
+
+	if(Modernizr.input.placeholder){
+	} else {
+		Placeholder.init({
+			placeholder: "#FF0000",
+			wait: true
+			});
+	}
+
+</script>
+
+</body>
+</html>

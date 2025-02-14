@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 18px;
+    background-color: rgb(118, 118, 118);
+}
+h3{
+    font-size: 30px;
+    text-align: center;
+    margin: 10px 0 20px 0;
+}
+
+.szablon{
+    width: 100%;
+    display: flex;
+    height: 100vh;
+}
+
+.left{
+    width: 70%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.up{
+    width: 100%;
+    height: 50%;
+}
+
+.down{
+    width: 100%;
+    height: 50%;
+
+}
+
+.dlaOdpowiedz{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pojedynczePytanie{
+}
+input{
+    margin: 10px;
+}
+.right{
+    width: 30%;
+    height: 100%;
+
+}
+
+.obramowanie{
+    border: 2px solid black;
+}
+
+
+button{
+    margin-top: 20px;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(50, 99, 179);
+}
+
+button:hover{
+    background-color: rgb(42, 87, 158);
+
+}
+img{
+    width: 100%;
+}

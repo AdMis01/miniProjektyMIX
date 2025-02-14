@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8">
+	<title>Tytuł</title>
+</head>
+<body>
+	<p>akapit tekstu</p> to jest coś nowego <br> i tak dalej 
+	<h1>nagłówek pierwszego stopnia</h1>
+	<p>tekst najlepiej wstawić do akapitu "p" aby nie powstawały jakieś komplikacje</p>
+	<h2>nagłówek drugiego stopnia</h2>
+	<p><em>pochylenie</em>em doje pochylenie tekstu<p/>
+	<p><b>pogrubienie</b> normalne pochylenie lub <strong>ważne pogrubienie </strong></p>
+	<hr>
+	hr towrzy linie poziomą 
+	<p>wstawianie cytatów </p> <blockquote>"to jest część cytatu" to jest wcięte </blockquote> 
+	<h2>preformatowanie</h2>
+	<p>użycie tekstu preformatowany taki japim jeste w rzczywistoście zapisany za pomocą pre</p>
+	<pre>to jest -
+	coś nowego co -
+	będzie wolne </pre>
+	<h1>inne znaczniki tekstowe</h1>
+	<p>znacznik który pozwala na przejście do <br>nowej lini z użyciem br które tak fajnie działa  </p>
+	<p> <i>pochylenie</i></p>
+	<p>aby stworzyć <del>przelreślenie</del> należy użyć del</p>
+	<p>użycie <ins>podpreślenie</ins> za pomocą ins</p> 
+	<p>zminejszenie trzcionki przez<small>small literki</small>
+	//////////////////////////////////
+	//////////////////////////////////
+	//////////////////////////////////
+	<h1>listy nieurzadkowanie </h1>
+	<ul>
+		<li>logo</li>
+		<li>drugie</li>
+		<li>meta dane</li>
+	</ul>
+	<h2>lista unomerowana lista uporządkowana </h2>
+	<ol start="6">
+		<li>jeden</li>
+		<li>dwa</li>
+		<li>trzy</li>
+	</ol>
+	<h2>listy definicji stosuje sie je bardzo rzadko</h2>
+		<dl>
+			<dt>html</dt>
+			<dd>hipertekstowy język znaków </dd>
+			<dt>css</dt>
+			<dd>to jest okteśla wygląd wartości html</dd>
+		</dl>
+		<p>dt do definijcji tego hasła a dd to wyjaśnienie hasła</p>
+		<h2>przydatnie oddnaśniki</h2>
+		<a href="ścieżka do strony">w to co klikamy</a>
+		<h2>co to jest kotwica</h2>
+		przejście do konkretnego elementu na stronie
+<p id="link">coś</p>
+<a href="#link">ta kotwica</a>	
+		///////////////////////////////////////
+		//////////////////////////////////////
+		//////////////////////////////////////
+		<h2>typowe tabele</h2>
+		<table>
+			<tr>
+				<td>kmórkaA</td>
+				<td>komórka</td>
+			</tr>
+		</table>
+		<table>
+			<caption>podpis tabeli</caption>
+			<thead>
+				<tr>
+					<th>jeden</th>
+					<th>dwa</th>
+					<th>trzy</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>ada</td>
+					<td>adam</td>
+					<td>adamczyk</td>
+				</tr>
+				<tr>
+					<td>ada2</td>
+					<td>adam2</td>
+					<td>adamczyk2</td>
+				</tr>
+			</tbody>
+		</table>
+		<p>thead nagłówek tabeli
+		tbody prawdziwa zawartość tabeli 
+		tr wiersz
+		td komórka</p>
+		///////////////////////////////////////
+		//////////////////////////////////////
+		//////////////////////////////////////
+		<h2>formularz</h2>pola to miejsce w które wprodadzamy terść a każde pole potrrzebują etykiete
+		oraz przycisk
+		<form action="plik/albo/addres_gdzie_dane_są_wysyłane" method="get/post">
+			<label for="name">imie</label><br>
+			<input type="text" id="name" value="ja"><br>
+			<label for="email">email</label><br>
+			<input type="email" id="email"><br>
+			<label for="message">wiadomość</label><br>
+			<textarea id="message"></textarea><br>
+			<button type="submit">przycisk</button>
+			<button type="reset">restet</button>
+		</form>
+		<p>for jest do powiądznia wiadomośc wejściowej do formularza 
+		submit typ wysyłanie wiadomości z formularza reset to resetuje usuwa wiadomości z formularza</p>
+		<form>
+			<label for="password">hasło</lable><br>
+			<input type="password" id="password"><br>
+			<label for="search">szukaj</label><br>
+			<input type="search" id="search"><br>
+			<label for="age">wiek</label><br> 
+			<input type="number" id="age" min="1" max="99"><br>
+		</form>
+		<form>
+			<label for="country">kraj</label><br>
+			<select size="1">
+				<option value="poland">polska</option>
+				<option value="uk" selected>uk</option>
+				<option value="germany">niemcy</option>
+			</select><br>
+			<label for="brithdate">data_urodzin</label><br>
+			<input type="date" id="brithdate"><br>
+			<label for="time">czas</label><br>
+			<input type="time" id="time"><br>
+			<fieldset>
+			<legend>czy</legend>
+			<input type="radio" value="yes" name="kl">Tak<br>
+			<input type="radio" value="no" name="kl">nie<br>
+			</fieldset>
+		</form>
+		name dodajemy aby sie parowały ze sobą i niemogły sie pola jednego wyboru fieldset dodaje miej wiecej obramowanie legend jest dodawanie na lini do tego pola w obramowanieu
+		<form>
+			<input type="checkbox" value="niewiem" name="to">niewiem<br>
+			<input type="checkbox" value="cos" name"to">cos<br>
+			<input type="checkbox" value="wiem" name="to">wiem<br>
+			<label for="file">przesyłąnie</label><br>
+			<input type="file" id="file" multiple="multiple"><br>
+		</form>
+		<p>aby wysłac wiele wartości do przesyąłnie plików należy uzwyć multiple mulpiple
+		 podstawowe walidacje formularzy aby jakiś atrybut w formularzy miał być wyagany trzeba dodać <mark>required</mark></p>
+		 <p>aby usunąć walidacje dodajemy do form <mark>novalidate</mark> może sie to przydać gdy chcemy stworzyć lub zaiplemętoować walidacje</p>
+		<p>dodawanie <mark>autofocus</mark> aktywowanie autowatycznie podczas odświerrzanie strony dodajemy to w input</p> 
+		<p>ustawnianie wartości domyślnej <mark>value</mark>  dodawnie pola tylko do odczytu <mark>readonly</mark> w input tylko do odczytu ale nie można jej zmienić </p>
+		///////////////////////////////////////
+		//////////////////////////////////////
+		//////////////////////////////////////
+		<h2>znaczniki do wyznaczania struktury</h2>
+		<pre>elementy sematyczne
+		section 
+		nav do nawigacji
+		header nagłówek strony
+		article tekst artykół
+		footer dół strony
+		aside cos na boku
+		elementy nie semantyczne
+		div 
+		span</pre>
+		<header>
+			<nav>
+				<ul>
+					<li><a href="">start</a></li>
+					<li><a href="">kontakt</a></li>
+					<li><a href="">menu</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main role="main">zawartość
+		<section>
+			<h3>poznaj nas</h3>
+			<article>
+				<h4>wysoka cena</h4>
+				<p>tekst artukułu</p>
+				</section>
+		<section>
+			<h3>poznaj siebie</h3>
+			<article>
+				<h4>niska cena</h4>
+				<p>tekst artukułu</p>
+			</article>
+		</section>
+		<aside>
+			<h4>linki które polecamy</h4>
+			<a href="">strefa</a><br>
+			<a href="">strefa</a>
+		</aside>
+		</main>
+		<footer>to jest stopka</footer>
+		<p>role main dodajemy do starszych przedlądarek main można używać tylko jeden eleemnt main</p>
+		<p>kiedy używamy div chcemy zgrupować elementy ale nie mam logicznej sekcji znacznik strukturalny aby osacować grupę elementów aby była w jednolitym wartoscią otwierający i zamekający</p> 
+		<p>kiedy używamy span używamy go wewnątrz tekstu  otwierający i zamekający dodejemy przez css alebo przez style</p>
+		///////////////////////////////////////
+		//////////////////////////////////////
+		//////////////////////////////////////
+		<h2>grafiki na stronie</h2>
+		<p>jpeg, gif, png a przyszłościawy format WebP</p>
+		wstawianie obrazków
+		<img src="ścieżka_dostępu" alt="alternatywny_obrazek_nazwa">
+		picture nowoczesny wersja wstawiania obrazka
+		<picture>
+			<source media="(nim-withd: 970px)" scrset="">
+			<source media="(min-width: 700px)" srcset="">
+			<img scr="" alt="">
+		</picture>
+		<p>pokazywanie obrazka względem wielkości ekranu  rastrowa 
+		wektorowa grafika SVG scalable vector grafihics scalowalna grafika wektorowa</p>
+		<img scr="ścieżka_dostępu" alt="" width="200px" height="200px">
+		<p>pisanie kodu svg</p>
+		<svg height="140" width="140">
+			<circle r="70" cx="70" cy="70" fill="#ff0000" dtroke="#f00000" stroke-width="3"/>
+		</svg>
+		///////////////////////////////////////
+		//////////////////////////////////////
+		//////////////////////////////////////
+		<h2>obiekty oraz multimedia</h2>
+		najważneisze formaty wideo html mp4 WebM OGG
+		<video controls width="460px">
+			<source scr="ścieżka_dostępu" type="video/mp4">
+			<source scr="" type="video/webm">
+		</video>
+		dodawanie kontrolek do video wpisujemy controls dodawanie wielu source aby były obsługiwanie przez wiele przeglądarek
+		<audio controls>
+			<source src="ścieżka_dostępu" type="audio/mpeg">
+		</audio>
+		<p>zagnieżdzanie obiektów może otworzyć bez pobierania pliku</p>
+		<embed src="ścieżka_dostępu" type="application/pdf" width="600px" height="500px">
+		<p>iframe zagnieżdzanie strony czyli wyświetlamy strone wewnątrz stony internetowej</p>
+		<iframe src="ścieżka_dostępu_czyli_strona_link" width="" height="">
+			<p>twoje przeglądark nie obsługuje iframe wyświetli sie jek ktoś bedzie miał starą przeglądarkę</p>
+		</iframe>
+		<p>canvas niestaty trzeba użycie javascript animacje</p>
+		<canvas id="canv" width="400px" height="400px">
+			<p></p>
+		</canvas>
+		<script></script>
+		///////////////////////////////////////
+		//////////////////////////////////////
+		//////////////////////////////////////
+		<h2>różne przydatne techniki</h2>
+		
+		<header>
+		<nav>
+			<ul>
+				<li><a href="">Start</a></li>
+				<li><a href="">Oferta</a></li>
+				<li><a href="">Portfolio</a></li>
+				<li><a href="">Kontakt</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main role="main">
+		<details open>
+			<summary>Nielimitowany dostęp</summary>
+			<p>Oglądasz kursy gdzie chcesz i kiedy chcesz.</p>
+		</details>
+		<details >
+		<summary>Stałe aktualizacje</summary>
+		<p>Szkolenie będzie na bieżąco aktualizowane, a Ty będziesz miał dostęp do wszystkich nowych lekcji.</p>
+		</details>
+	</main>
+	<footer>To jest stopka strony</footer>
+	dodanie elementu open pokarz zawartośc otwartą lub zamknietą
+	<p>własne menu kontekstowe jest to context i jest to ekspertmentalna i na razie działa tylko na firefox</p>
+	<menu type="context" id="mainmenu">
+		<menuitem icon="nazwa">start</menuitem>
+	</menu>
+	aby to zadziałało trzeba dodać do body contextmenu="mainmenu" w zależnasi jaki id nadałeś aby dodać idone do tego trzeba dodac icon
+	<p>znacznik tam oznaczanie kodu tekstu ma być traktowany jako data np. opublikowani: <time datatime="2000-01-24"> 24 stycznia 2000</time> okrasla to jako datę i komputer potrafi rozróżnić to jako datę </p>
+	<p>używanie polyfill można użyć go do innnych przeglądarek których nie działa to mo żna dodać to za pomocą java scritp</p>
+	sprawdanie czy doan funkcjanalnaść i dodawanie biblioteki ze strony modernizr trzeba oganiczać to ponieważ bedzie to opóżniało ładowanie strony internetowej po dodaniu biblioteki trwrzymy <script src="ścieżka"></script> po czy tworzymy nowy script który będzie funkcjowało
+	<p>przestarzałe znaczniki można znaleść na www.w3.org</p>
+	<p>procesy walidacje w kodzie html mozna użyć strony validator.w3.org</p>
+	</body>
+</html>

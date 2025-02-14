@@ -1,0 +1,333 @@
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  background-color: black;
+}
+.font-bold{
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0 10px;
+}
+.wrapper {
+  max-width: 2560px;
+  width: 80%;
+  margin: 0 auto;
+}
+.scroll-fix::before {
+  display: block;
+  margin-top: -66px;
+  height: 66px;
+  content: '';
+}
+
+.visibility {
+  visibility: hidden;
+}
+nav {
+  text-transform: uppercase;
+  -webkit-transition: background-color .6s;
+  transition: background-color .6s;
+  z-index: 1;
+  background: linear-gradient(270deg, #001720 0%, #110B14 100%);
+}
+
+nav a, nav i {
+  color: #fff;
+  -webkit-transition: color .3s;
+  transition: color .3s;
+}
+
+nav a:hover {
+  color: #ED7EDF;
+}
+.link-last:hover{
+  color: white;
+}
+
+nav i {
+  padding: 10px;
+}
+
+nav .navbar-brand {
+  font-weight: bold;
+}
+
+.link-last{
+  background: linear-gradient(270deg, #ED7EDF 0%, #9563BF 102.99%);
+  border-radius: 8px;
+}
+
+.shadow-bg {
+  background: linear-gradient(270deg, #001720 0%, #110B14 100%);
+}
+#navbarNavAltMarkup{
+  background: linear-gradient(270deg, #001720 0%, #110B14 100%);
+  text-align: center;
+}
+main .first{
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/image\ 13.png");
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+}
+main .first .f{
+  width: 100%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+main .second{
+  padding: 2rem 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .second .tresc{
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  width: 80%;
+}
+main .second .contSec{
+  width: 90%;
+  height: 70%;
+  display: flex;
+}
+main .second .contSec .left{
+  width: 50%;
+}
+main .second .contSec .left .post{
+  width: 100%;
+  margin: 1rem auto 1rem auto;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 1rem;
+}
+main .second .contSec .left .post .grad{
+    height: 2px;
+    background: linear-gradient(270deg, #51BBEB 0%, #ED7EDF 49.48%, #9563BF 100%);
+}
+main .second .contSec .left .post .post-right-con{
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+  padding-top: 1rem;
+}
+main .second .contSec .left .post .post-right-con .post-text{
+  padding-left:1rem;
+  font-size: .9rem;
+}
+main .second .contSec .left .post .post-right-con .post-text .opublokowanie{
+  color: #ED7EDF;
+  font-size: 1rem;
+  text-align: left;
+
+}
+main .second .contSec .left .post .post-right-con .post-img{
+  background-color: aqua;
+  width: 500px;
+}
+main .second .contSec .right{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .second .contSec .right img{
+  width: 100%;
+}
+main .projects{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  color: white;
+}
+main .projects h2{
+  padding-bottom: 2rem;
+}
+main .projects .center{
+  width: 60%;
+  margin: 1rem auto 2rem auto;
+}
+main .kontaktUs{
+  color: white;
+  padding: 3rem;
+  padding-bottom: 5rem;
+}
+main .kontaktUs .firstLa{
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .kontaktUs h2{
+  margin-bottom: 3rem;
+  text-align: center;
+}
+main .kontaktUs .firstLa .contTeam{
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+main .kontaktUs .firstLa .contTeam .contPerson .singlePer{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ED7EDF;
+  margin: 1rem;
+}
+main .kontaktUs .firstLa .contTeam .contPerson .pseldo{
+  color: #ED7EDF;
+}
+main .kontaktUs .secondLa{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .kontaktUs .secondLa img{
+  width: 30%;
+}
+main .kontaktUs .secondLa .textSecKon{
+  color: #ED7EDF;
+  padding: 1rem 0;
+}
+main .kontaktUs .secondLa a{
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(270deg, #ED7EDF 0%, #9563BF 102.99%);
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+}
+
+footer {
+  width: 100%;
+  height: 50vh;
+  background-image: url("../img/Rectangle\ 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 1rem;
+}
+footer .flex-container{
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+footer .flex-container .squer{
+  background-color: pink;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+footer .copyAll{
+  color: white;
+  width: 50%;
+  text-align: center;
+  font-size: 1.2rem;
+}
+footer .copyAll .grad{
+  height: 2px;
+  background: linear-gradient(270deg, #51BBEB 0%, #ED7EDF 49.48%, #9563BF 100%);
+}
+footer .joinNewsletter a{
+  text-decoration: none;
+  color: pink;
+}
+@media (max-width: 1182px) {
+  footer .flex-container{
+    width: 80%;
+  }
+  main .first{
+    height: 120vh;
+  }
+  main .first .f{
+    height: 50%;
+  }
+  main .projects .center{
+    width: 70%;
+  }
+  main .kontaktUs .secondLa img{
+    width: 50%;
+  }
+}
+@media (max-width: 1032px) {
+  .font-bold{
+    font-size: 1rem;
+  }
+  main .second .contSec .right{
+    width: 70%;
+  }
+  main .second{
+    height: auto;
+  }
+}
+@media (max-width: 985px) {
+  .font-bold{
+    font-size: 20px;
+  }
+  main .second .tresc{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  main .second .contSec{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main .second .contSec .left{
+    width: 90%;
+  }
+  main .projects .center{
+    width: 100%;
+  }
+  main .kontaktUs .firstLa .contTeam .contPerson .singlePer{
+    width: 70px;
+    height: 70px;
+  }
+}
+@media (max-width: 782px) {
+  main .second .tresc{
+    width: 90%;
+  }
+}
+@media (max-width: 600px) {
+  footer .flex-container{
+    width: 90%;
+  }
+  footer .flex-container .squer{
+    width: 70px;
+    height: 70px;
+  }
+  main .first .f{
+    height: 60%;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

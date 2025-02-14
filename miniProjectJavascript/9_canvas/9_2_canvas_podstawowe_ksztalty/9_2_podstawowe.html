@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<head>
+<meta charset="utf-8">
+<title>Canvas</title>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<script>
+
+	window.onload = function(){
+		var cnv = document.getElementById("canvas");
+		var ctx = cnv.getContext("2d");
+		
+		var color = "#CCC";
+		
+		ctx.fillStyle = color;
+		ctx.fillRect(0,0,50,50);
+		
+		ctx.fillStyle = color;
+		ctx.fillRect(50,50,50,50);
+		
+		ctx.fillStyle = color;
+		ctx.fillRect(100,100,50,50);
+	}
+
+</script>
+
+</head>
+
+<body>
+
+    <h1>Canvas</h1>
+    
+    <canvas id="canvas" width="600px" height="500px">Brak obsługi CANVAS</canvas>
+
+</body>
+</html>

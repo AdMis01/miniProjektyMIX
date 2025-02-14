@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<head>
+<meta charset="utf-8">
+<title>Web Storage</title>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<script type="text/javascript">
+
+	function ustawWartosc(){
+		localStorage.setItem('nazwa','Kurs HTML5');
+	}
+	
+	function pokazWartosc(){
+		var wartosc = localStorage.getItem('nazwa');
+		alert(wartosc);
+	}
+	
+	function usunWartosc(){
+		localStorage.removeItem('nazwa');
+	}
+	
+
+</script>
+
+</head>
+
+<body>
+
+	<input type="button" value="Ustaw" id="ustaw" onClick="ustawWartosc()"/>
+    <input type="button" value="Pokaż" id="pokaz" onClick="pokazWartosc()"/>
+    <input type="button" value="Usuń" id="usun" onClick="usunWartosc()"/>   
+
+</body>
+</html>

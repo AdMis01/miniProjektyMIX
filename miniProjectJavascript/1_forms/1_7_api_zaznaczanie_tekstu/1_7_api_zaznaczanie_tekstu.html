@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<head>
+<meta charset="utf-8">
+<title>Formularze - wprowadzenie</title>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<script type="text/javascript">
+
+	function zaznaczTekst(){
+		var input = document.getElementById("tekst");
+		input.selectionStart = parseInt(document.getElementById("poczatek").value);
+		input.selectionEnd = parseInt(document.getElementById("koniec").value);
+	}
+	
+</script>
+
+</head>
+
+<body>
+
+    <h1>Formularze</h1>
+    
+    <form action="#" method="get">
+    	<p><label for="tekst">Wprowadź tekst</label><input name="tekst" type="text" id="tekst"/></p>
+        <p><input type="button" value="Zaznacz tekst" id="zaznacz" onClick="zaznaczTekst()"/></p>
+        <p><label for="poczatek">Początek </label><input name="poczatek" type="text" id="poczatek" size="4"/></p>
+        <p><label for="koniec">Koniec</label><input name="koniec" type="text" id="koniec" size="4"/></p>
+    </form>
+
+</body>
+</html>

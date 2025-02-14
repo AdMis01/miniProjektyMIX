@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<head>
+<meta charset="utf-8">
+<title>Canvas</title>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<script>
+
+	window.onload = function(){
+		var cnv = document.getElementById("canvas");
+		var ctx = cnv.getContext("2d");
+		
+		var tekst = "Canvas Tekst";
+		
+		ctx.shadowColor = "#222";
+		ctx.shadowOffsetX = 10;
+		ctx.shadowOffsetY = 10;
+		ctx.shadowBlur = 7;
+		
+		ctx.fillStyle = "red";
+		ctx.fillRect(150,150,200,75);
+		
+		ctx.font = "30px Verdana";
+		ctx.fillText(tekst,400,400);
+		
+	}
+
+</script>
+
+</head>
+
+<body>
+
+    <h1>Canvas</h1>
+    
+    <canvas id="canvas" width="600px" height="500px">Brak obsługi CANVAS</canvas>
+
+</body>
+</html>

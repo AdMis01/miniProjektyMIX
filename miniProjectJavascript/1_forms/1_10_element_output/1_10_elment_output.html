@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<head>
+<meta charset="utf-8">
+<title>Formularze - output</title>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<script type="text/javascript">
+
+	function pokazWynik(){
+		var wynik = document.getElementById("wynik");
+		var w1 = document.getElementById("wartosc1");
+		var w2 = document.getElementById("wartosc2");
+		
+		wynik.value = parseFloat(w1.value) * parseFloat(w2.value);
+	}
+	
+</script>
+
+</head>
+
+<body>
+
+    <h1>Formularze</h1>
+    
+    <input type="text" id="wartosc1" />
+    <input type="text" id="wartosc2" />
+    
+    <input type="button" id="oblicz" value="Oblicz" onClick="pokazWynik()"/>
+    
+    <output id="wynik">Wynik</output>
+
+</body>
+</html>

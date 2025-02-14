@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<head>
+<meta charset="utf-8">
+<title>File Reader</title>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<script type="text/javascript">
+
+	function init(){
+		document.getElementById("plik").addEventListener("change",zmianaPliku);
+	}
+
+	window.addEventListener("load",init);
+	
+	function zmianaPliku(plik){
+		var nowyplik = plik.target.files[0];
+		
+		if(nowyplik.type != "text/plain" ){
+			alert("To nie jest plik tekstowy");
+			return;
+		}
+		
+		var reader = new FileReader();
+		
+		reader.onload = function(zdarzenie){
+			var zawartosc = zdarzenie.target.result;
+			document.getElementById("tresc").innerHTML = zawartosc;
+		}
+		
+		reader.readAsText(nowyplik);
+		
+	}
+
+</script>
+
+</head>
+
+<body>
+
+    <input type="file" id="plik" />
+    <div id="tresc"></div>
+
+</body>
+</html>

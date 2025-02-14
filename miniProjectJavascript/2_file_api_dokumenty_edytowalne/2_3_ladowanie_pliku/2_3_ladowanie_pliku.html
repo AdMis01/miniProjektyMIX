@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<head>
+<meta charset="utf-8">
+<title>Formularze - output</title>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<script type="text/javascript">
+
+	function init(){
+		document.getElementById("plik").addEventListener("change",zmianaPliku);
+	}
+
+	window.addEventListener("load",init);
+	
+	function zmianaPliku(plik){
+		alert(plik.target.files[0].name);
+	}
+
+</script>
+
+</head>
+
+<body>
+
+    <input type="file" id="plik" />
+
+</body>
+</html>

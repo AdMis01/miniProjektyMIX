@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<head>
+<meta charset="utf-8">
+<title>Canvas</title>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<script>
+
+	window.onload = function(){
+		var cnv = document.getElementById("canvas");
+		var ctx = cnv.getContext("2d");
+		
+		var tekst = "Canvas Tekst";
+		
+		ctx.font = "25px Verdana";
+		ctx.fillStyle = "#CCC";
+		ctx.strokeStyle = "#666";
+		ctx.fillText(tekst,100,50);
+		ctx.strokeText(tekst,100,50);
+		
+	}
+
+</script>
+
+</head>
+
+<body>
+
+    <h1>Canvas</h1>
+    
+    <canvas id="canvas" width="600px" height="500px">Brak obsługi CANVAS</canvas>
+
+</body>
+</html>

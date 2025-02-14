@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+
+
+#edytor {
+	border: 1px solid #CCC;
+	width: 80%;
+	height: 300px;
+	padding: 20px;
+	line-height: 30px;
+	font-size: 22px;
+}
+

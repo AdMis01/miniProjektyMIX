@@ -1,0 +1,11 @@
+Systemy zarządzania treścią oparte na Node.js
+
+Tradycyjne rozwiązania
+
+Olbrzymia część aplikacji i stron webowych oparta jest na jakimś systemie zarządzania treścią (CMS). Jest to rozwiązanie niezbędne jeśli potrzebujemy jakiegoś sposobu na łatwe dodawanie oraz aktualizowanie treści strony. Tradycyjnie największą popularnością cieszyły się CMS napisane w PHP – każdy webdeveloper na pewno zna takie nazwy jak WordPress, Joomla czy Drupal. Są to rozwiązania bardzo dojrzałe, oferujące liczne funkcjonalności oraz rozszerzenia. Z drugiej strony mają dość poważne wady: są ciężkie, powolne i niejednokrotnie oferują wiele funkcji, z których na co dzień i tak nie skorzystamy. 
+
+CMS JavaScript
+
+Praktycznie odkąd pojawił się node.js developerzy podejmowali próby napisania funkcjonalnego systemu zarządzania treścią w JavaScript. Na chwile obecną do dyspozycji mamy co najmniej kilka sensownych CMS wykorzystujących zalety node i to właśnie o nich chciałbym opowiedzieć w tym artykule. Generalnie skupimy się na takich rozwiązaniach, które są dojrzałe, funkcjonalne, regularnie rozwijane i nadają się dobrze do budowania dynamicznych witryn. 
+
+Kategoria : Web Develop

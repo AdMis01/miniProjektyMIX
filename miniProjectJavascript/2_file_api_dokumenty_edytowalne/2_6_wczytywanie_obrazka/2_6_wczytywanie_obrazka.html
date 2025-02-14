@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<head>
+<meta charset="utf-8">
+<title>File Reader</title>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<script type="text/javascript">
+
+	function init(){
+		document.getElementById("plik").addEventListener("change",zmianaPliku);
+	}
+
+	window.addEventListener("load",init);
+	
+	function zmianaPliku(plik){
+		var nowyplik = plik.target.files[0];
+		
+		if(!nowyplik.type.match("image/*") ){
+			alert("To nie jest plik obrazka");
+			return;
+		}
+		
+		var reader = new FileReader();
+		
+		reader.onload = function(zdarzenie){
+			var zawartosc = zdarzenie.target.result;
+			
+			var obrazek = new Image();
+			obrazek.src = zdarzenie.target.result;
+			document.getElementById("tresc").appendChild(obrazek);
+			
+		}
+		
+		reader.readAsDataURL(nowyplik);
+		
+	}
+
+</script>
+
+</head>
+
+<body>
+
+    <input type="file" id="plik" />
+    <div id="tresc"></div>
+
+</body>
+</html>

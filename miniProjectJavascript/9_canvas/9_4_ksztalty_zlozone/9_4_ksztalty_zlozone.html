@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<head>
+<meta charset="utf-8">
+<title>Canvas</title>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<script>
+
+	window.onload = function(){
+		var cnv = document.getElementById("canvas");
+		var ctx = cnv.getContext("2d");
+		
+		ctx.beginPath();
+		ctx.arc(300,300,150,0,1 * Math.PI);
+		ctx.stroke();
+		
+	}
+
+</script>
+
+</head>
+
+<body>
+
+    <h1>Canvas</h1>
+    
+    <canvas id="canvas" width="600px" height="500px">Brak obsługi CANVAS</canvas>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<head>
+<meta charset="utf-8">
+<title>Canvas</title>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<script>
+
+	window.onload = function(){
+		var cnv = document.getElementById("canvas");
+		var ctx = cnv.getContext("2d");
+			
+		ctx.globalCompositeOperation = 'destination-atop'
+		
+		ctx.fillStyle = "#FF0000";
+		ctx.fillRect(200,200,150,150);
+		ctx.fillStyle = "#00F";
+		ctx.fillRect(160,160,150,150);
+		
+	}
+
+</script>
+
+</head>
+
+<body>
+
+    <h1>Canvas</h1>
+    
+    <canvas id="canvas" width="600px" height="500px">Brak obsługi CANVAS</canvas>
+
+</body>
+</html>

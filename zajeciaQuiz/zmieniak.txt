@@ -1,0 +1,55 @@
+START → Czy widzisz jakiekolwiek nieprawidłowości na liściach, łodygach lub bulwach ziemniaka?
+        ├── Tak → Jakie objawy są widoczne na liściach?
+        │       ├── Brązowe plamy na brzegach liści → Sprawdź wilgotność gleby i powietrza
+        │       │   ├── Wysoka wilgotność → Może to być zaraza ziemniaka (Phytophthora infestans)
+        │       │   │   → Zastosuj fungicydy systemowe (metalaksyl, cymoksanil)
+        │       │   └── Niska wilgotność → Może to być alternarioza (Alternaria solani)
+        │       │       → Stosuj opryski na bazie miedzi lub chlorotalonilu
+        │       ├── Żółte liście z zielonymi nerwami → Może to być wirus mozaiki ziemniaka
+        │       │   → Usuń chore rośliny i stosuj odmiany odporne
+        │       ├── Liście są skręcone i zdeformowane → Może to być wirus liściozwoju ziemniaka (PLRV)
+        │       │   → Stosuj środki owadobójcze na mszyce, które przenoszą wirusy
+        │       └── Inne objawy → Sprawdź dodatkowe oznaki na łodygach i bulwach
+        └── Nie → Przejdź do badania bulw ziemniaka
+
+BULWY → Czy bulwy mają uszkodzenia, przebarwienia lub deformacje?
+        ├── Tak → Jakie są widoczne objawy na bulwach?
+        │       ├── Czernienie i miękkość bulw → Sprawdź wilgotność gleby
+        │       │   ├── Wysoka wilgotność → Może to być mokra zgnilizna (Pectobacterium carotovorum)
+        │       │   │   → Usuń chore bulwy, stosuj środki dezynfekujące w glebie
+        │       │   └── Niska wilgotność → Może to być sucha zgnilizna (Fusarium spp.)
+        │       │       → Przechowuj bulwy w suchych warunkach, stosuj fungicydy
+        │       ├── Suche, brązowe plamy wewnątrz bulwy → Może to być rizoktonioza (Rhizoctonia solani)
+        │       │   → Zaprawiaj bulwy przed sadzeniem, stosuj odpowiednie fungicydy
+        │       └── Białe plamy lub przebarwienia → Może to być parch ziemniaka (Streptomyces scabies)
+        │           → Wapnuj glebę, obniżaj jej pH, stosuj rotację upraw
+        └── Nie → Przejdź do badania łodyg
+
+ŁODYGI → Czy łodygi są uszkodzone lub zdeformowane?
+        ├── Tak → Czy uszkodzenia są wilgotne lub śluzowate?
+        │       ├── Tak → Może to być czarna nóżka (Erwinia spp.)
+        │       │   → Usuń chore rośliny, stosuj środki bakteriobójcze w glebie
+        │       └── Nie → Czy łodygi są zdeformowane lub mają puste wnętrza?
+        │           ├── Tak → Może to być gangrena ziemniaka (Phoma exigua)
+        │           │   → Usuń zainfekowane rośliny, stosuj odpowiednie fungicydy
+        │           └── Nie → Sprawdź inne objawy na liściach i bulwach
+        └── Nie → Roślina może być zdrowa, sprawdź inne warunki wzrostu
+
+INNE OBJAWY → Czy widoczne są inne objawy na roślinie?
+        ├── Białe, mączyste naloty na liściach → Może to być mączniak rzekomy (Peronospora)
+        │   → Zastosuj fungicydy na bazie miedzi, popraw cyrkulację powietrza wokół roślin
+        ├── Fioletowy odcień na łodygach → Może to być zaraza ziemniaka
+        │   → Natychmiastowe opryski fungicydami (metalaksyl, cymoksanil)
+        ├── Małe, zdeformowane bulwy → Może to być rak ziemniaka (Synchytrium endobioticum)
+        │   → Zastosuj kwarantannę na polu, stosuj odporne odmiany
+        └── Brak widocznych objawów → Roślina może być zdrowa lub wymaga dalszej obserwacji
+
+STOSOWANIE ŚRODKÓW → Czy wybrano odpowiednie środki eliminacji?
+        ├── Tak → Czy środki są skuteczne po zastosowaniu?
+        │       ├── Tak → Problem został rozwiązany
+        │       └── Nie → Powtórz zabiegi, zastosuj inne metody lub zmień preparaty
+        └── Nie → Dokonaj ponownego wyboru środków chemicznych, biologicznych lub zmian agrotechnicznych
+
+MONITOROWANIE → Czy obserwujesz nowe objawy na roślinach?
+        ├── Tak → Powtórz proces diagnozy i eliminacji  
+        └── Nie → Rośliny są zdrowe, kontynuuj monitorowanie

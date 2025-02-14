@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Moja pierwsza strona</title>
+</head>
+<body>
+	<h1>Tworzenie formularzy w HTML</h1>
+	<form action="" method="" novalidate>
+		<label for="name">Imię:</label><br>
+		<input type="text" id="name" required><br>
+
+		<label for="email">Email:</label><br>
+		<input type="email" id="email" required><br>
+
+		<label for="search">Szukaj: </label><br>
+		<input type="search" id="search"><br>
+
+		<label for="password">Hasło: </label><br>
+		<input type="password" id="password"><br>
+
+		<label for="age">Wiek:</label><br>
+		<input type="number" id="age" min="1" max="99"><br>
+
+		<label for="birthdate">Data urodzenia:</label><br>
+		<input type="date" id="birthdate"><br>
+
+		<label for="country">Kraj:</label><br>
+		<select id="country">
+			<option value="poland">Polska</option>
+			<option value="uk">UK</option>
+			<option value="germany">Niemcy</option>
+		</select><br>
+
+		<fieldset>
+			<legend>Czy jesteś naszym klientem?</legend>
+			<input type="radio" value="yes" name="customer">Tak<br>
+			<input type="radio" value="no" name="customer">Nie<br>
+		</fieldset>
+
+		<fieldset>
+			<legend>Jakimi tematami jesteś zainteresowany?</legend>
+			<input type="checkbox" value="grafika" name="topic">Grafika<br>
+			<input type="checkbox" value="office" name="topic">Office<br>
+			<input type="checkbox" value="webdesign" name="topic">Webdesign<br>
+			<input type="checkbox" value="mobile" name="topic">Mobile<br>
+		</fieldset>
+
+		<label for="file">Prześlij plik: </label><br>
+		<input type="file" id="file" multiple="multiple"><br>
+
+		<label for="message">Wiadomość: </label><br>
+		<textarea id="message" required></textarea><br>
+
+		<button type="submit">Wyślij wiadomość</button>
+		<button type="reset">Zresetuj</button>
+	</form>
+</body>
+</html>

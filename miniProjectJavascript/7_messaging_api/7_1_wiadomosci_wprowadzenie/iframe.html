@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<head>
+<meta charset="utf-8">
+<title>Iframe</title>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<script>
+
+	function pokazWiadomosc(zdarz){
+		var wiadomosc;
+		if(zdarz.origin != "http://localhost"){
+			wiadomosc = "Brak uprawnień";
+		} else {
+			wiadomosc = zdarz.data;
+		}
+		document.getElementById('tresc').innerHTML = wiadomosc;
+	}
+
+	window.addEventListener("message", pokazWiadomosc, false);
+
+</script>
+
+</head>
+
+<body>
+
+    <p id="tresc">Zawartość iframe.html</p>
+
+</body>
+</html>

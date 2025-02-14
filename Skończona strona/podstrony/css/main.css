@@ -1,0 +1,459 @@
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  font-family: Open Sans, sans-serif;
+  background-color: black;
+}
+.font-bold{
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0 10px;
+}
+.wrapper {
+  max-width: 2560px;
+  width: 80%;
+  margin: 0 auto;
+}
+.scroll-fix::before {
+  display: block;
+  margin-top: -66px;
+  height: 66px;
+  content: '';
+}
+
+.visibility {
+  visibility: hidden;
+}
+nav {
+  text-transform: uppercase;
+  -webkit-transition: background-color .6s;
+  transition: background-color .6s;
+  z-index: 1;
+  background: linear-gradient(270deg, #001720 0%, #110B14 100%);
+}
+
+nav a, nav i {
+  color: #fff;
+  -webkit-transition: color .3s;
+  transition: color .3s;
+}
+
+nav a:hover {
+  color: #ED7EDF;
+}
+.link-last:hover{
+  color: white;
+}
+
+nav i {
+  padding: 10px;
+}
+
+nav .navbar-brand {
+  font-weight: bold;
+}
+
+.link-last{
+  background: linear-gradient(270deg, #ED7EDF 0%, #9563BF 102.99%);
+  border-radius: 8px;
+}
+
+.shadow-bg {
+  background: linear-gradient(270deg, #001720 0%, #110B14 100%);
+}
+#navbarNavAltMarkup{
+  background: linear-gradient(270deg, #001720 0%, #110B14 100%);
+  text-align: center;
+}
+main{
+  width: 100%;
+}
+main .post{
+  margin: 1rem auto 1rem auto;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  color: white;
+}
+main .post .grad, main .this-post .grad, main .projekty .grand{
+    height: 2px;
+    background: linear-gradient(270deg, #51BBEB 0%, #ED7EDF 49.48%, #9563BF 100%);
+}
+main .post .post-right-con{
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+  padding-top: 1rem;
+}
+main .post .post-right-con .post-text{
+  padding-left:1rem;
+}
+main .post .post-right-con .post-text .opublokowanie, main .this-post .opublokowanie{
+  color: #ED7EDF;
+}
+main .post .post-right-con .post-img{
+  background-color: aqua;
+  width: 30%;
+}
+main .oNas{
+  height: 100vh;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+main .oNas h1{
+  padding: 3rem 0 2rem 0;
+}
+main .oNas .content-oNas{
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  line-height: 2.2rem;
+}
+main .naszeWartosci{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 1.2rem;
+}
+main .naszeWartosci .headerNaszeWartosci{
+  position: relative;
+  width: 85%;
+  margin: 2rem auto 0 auto;
+}
+main .naszeWartosci .headerNaszeWartosci .line{
+  position: absolute;
+  top:50%;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(270deg, #51BBEB 0%, #ED7EDF 49.48%, #9563BF 100%);
+  z-index: -1;
+}
+main .naszeWartosci .headerNaszeWartosci h2{
+  color: #ED7EDF;
+  font-weight: bold;
+  background-color: black;
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+main .naszeWartosci .naszeContain{
+  display: flex;
+  width: 85%;
+  margin: 1rem auto 0 auto;
+  justify-content: space-evenly;
+}
+main .naszeWartosci .naszeContain div{
+  width: 30%;
+  margin-top: 1.5rem;
+}
+main .naszeWartosci .naszeContain div h3{
+  color:#ED7EDF;
+}
+main .naszeWartosci .naszeContain2{
+  display: flex;
+  width: 85%;
+  margin: 3rem auto 0 auto;
+  justify-content: space-between;
+}
+main .naszeWartosci .naszeContain2 .mission, main .naszeWartosci .naszeContain2 .wizja{
+width: 40%;
+}
+main .naszeWartosci .naszeContain2 .mission .title, main .naszeWartosci .naszeContain2 .wizja .title{
+  width: 100%;
+  position: relative; 
+}
+main .naszeWartosci .naszeContain2 .mission .title h3, main .naszeWartosci .naszeContain2 .wizja .title h3{
+  color: #ED7EDF;
+  width: 150px;
+  background-color: black;
+  text-align: center;
+  margin: 0 auto;
+}
+main .naszeWartosci .naszeContain2 .mission .title .line,main .naszeWartosci .naszeContain2 .wizja .title .line{
+  position: absolute;
+  top:50%;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(270deg, #51BBEB 0%, #ED7EDF 49.48%, #9563BF 100%);
+  z-index: -1;
+}
+main .naszeWartosci a{
+  margin: 0 auto;
+  background: linear-gradient(270deg, #ED7EDF 0%, #9563BF 102.99%);
+  color: white;
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  border-radius: 1rem;
+  text-decoration: none;
+}
+main .this-post{
+  width: 100%;
+  padding: 60px 60px;
+  height: auto;
+  color: white;
+}
+main .this-post .image-con-log{
+  width: 100%;
+  margin: 1rem 0;
+}
+main .this-post .image-con-log img{
+  width: 30%;
+}
+main .this-post h4{
+  margin: 1rem 0;
+}
+main .this-post .image-cont-first{
+  width: 100%;
+  height: 500px;
+  margin: 3rem 0;
+  background-color: #ED7EDF;
+}
+main .this-post .image-cont-second{
+  width: 80%;
+  height: 500px;
+  margin: 3rem auto;
+  background-color: #ED7EDF;
+}
+main .projekty{
+  width: 100%;
+  padding: 3rem 2rem;
+  color: white;
+  height: auto;
+}
+main .projekty h2{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+main .projekty .projekt{
+  width: 100%;
+  display: flex;
+  margin: 1rem 0;
+}
+main .projekty .projekt .projekt-left{
+  width: 50%;
+}
+main .projekty .projekt .projekt-right{
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 1rem 1rem 0 1rem;
+}
+main .projekty .projekt .projekt-right h3{
+  text-align: center;
+  margin: 1rem;
+}
+main .projekty .projekt .projekt-right a{
+  margin: 0 auto;
+}
+main .projekty .projekt .projekt-right .tagi{
+  width: 100%;
+}
+main .projekty .projekt .projekt-right .tagi{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+main .projekty .projekt .projekt-right .tagi .tagElementrny{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+main .projekty .projekt .projekt-right .tagi .tagElementrny .tagE{
+  border-radius: .5rem;
+  padding: 0 .2rem;
+  margin-left: 1rem;
+  background: linear-gradient(275.29deg, #51BBEB 5.92%, #51BBEB 95.76%);
+}
+main .projekty .projekt .projekt-right .tagi .tagPomocniczy{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+main .projekty .projekt .projekt-right .tagi .tagPomocniczy .tagP{
+  border-radius: .5rem;
+  padding: 0 .2rem;
+  margin-top: .5rem;
+  margin-left: 1rem;
+  background: linear-gradient(275.29deg, #9563BF 5.92%, #ED7EDF 95.76%);
+}
+main .projekty .projekt .projekt-right a{
+  margin: 0 auto;
+  background: linear-gradient(270deg, #ED7EDF 0%, #9563BF 102.99%);
+  color: white;
+  padding: 1.5rem 3rem;
+  margin-top: 2rem;
+  font-size: 1.8rem;
+  border-radius: 1rem;
+  text-decoration: none;
+}
+main .dolacz{
+  padding: 3rem 2rem;
+  width: 100%;
+  height: auto;
+  color: white;
+}
+main .dolacz .con-img-dolacz{
+  width: 30%;
+  margin: 0 auto;
+}
+main .dolacz .con-img-dolacz img{
+  width: 100%;
+}
+main .dolacz h2{
+  margin: 4rem 0 2rem 0;
+  text-align: center;
+}
+main .dolacz .first-cont-dolacz{
+  width: 100%;
+}
+main .dolacz .first-cont-dolacz .cont-dolacz{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+main .dolacz .first-cont-dolacz .cont-dolacz .left-dolacz{
+  width: 40%;
+  font-size: 36px;
+  line-height: 50px;
+}
+main .dolacz .first-cont-dolacz .cont-dolacz .right-dolacz{
+  width: 50%;
+  font-size: 24px;
+  line-height: 40px;
+}
+
+footer {
+  width: 100%;
+  height: 50vh;
+  background-image: url("../img/Rectangle\ 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 1rem;
+}
+footer .flex-container{
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+footer .flex-container .squer{
+  background-color: pink;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+footer .copyAll{
+  color: white;
+  width: 50%;
+  text-align: center;
+  font-size: 1.2rem;
+}
+footer .copyAll .grad{
+  height: 2px;
+  background: linear-gradient(270deg, #51BBEB 0%, #ED7EDF 49.48%, #9563BF 100%);
+}
+footer .joinNewsletter a{
+  text-decoration: none;
+  color: pink;
+}
+@media (max-width: 1182px) {
+  footer .flex-container{
+    width: 80%;
+  }
+  main .post .post-right-con .post-img{
+    width: 50%;
+  }
+  main .projekty .projekt{
+    flex-direction: column;
+  }
+  main .projekty .projekt .projekt-left{
+    width: 100%;
+  }
+  main .projekty .projekt .projekt-right{
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 1032px) {
+  .font-bold{
+    font-size: 1rem;
+  }
+  main .this-post .image-con-log img{
+    width: 50%;
+  }
+}
+@media (max-width: 985px) {
+  .font-bold{
+    font-size: 20px;
+  }
+  main .oNas{
+    height: auto;
+  }
+  main .naszeWartosci{
+    height: auto;
+  }
+}
+@media (max-width: 880px) {
+  main .post .post-right-con{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+  main .post .post-right-con .post-img{
+    width: 50%;
+    height: 20%;
+  }
+  main .naszeWartosci .naszeContain{
+    flex-direction: column;
+    align-items: center;
+  }
+  main .naszeWartosci .naszeContain div{
+    width: 60%;
+  }
+  main .naszeWartosci .naszeContain2{
+    flex-direction: column;
+    align-items: center;
+  }
+  main .naszeWartosci .naszeContain2 .mission, main .naszeWartosci .naszeContain2 .wizja{
+    width: 60%;
+    }
+  main .this-post .image-con-log img{
+      width: 80%;
+  }
+  main .this-post{
+    padding: 60px 30px;
+  }
+}
+@media (max-width: 600px) {
+  footer .flex-container{
+    width: 90%;
+  }
+  footer .flex-container .squer{
+    width: 70px;
+    height: 70px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
