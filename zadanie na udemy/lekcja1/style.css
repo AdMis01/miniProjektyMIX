@@ -1,0 +1,132 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+html{
+	font-size: 10px;
+}
+body{
+	font-family: sans-serif;
+}
+p{
+	font-size: 1.6rem;
+}
+nav{
+	font-size: 0px;
+	height:50px;
+	background-color: rgb(54,54,54);
+	text-align:center;
+	line-height: 50px;
+}
+nav li{
+	display: inline-block;
+}
+nav li a{
+	padding: 0 50px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-size: 16px;
+	transition: color .3s;
+}
+nav li a:hover{
+	color: blue;
+}
+
+.header-img{
+	position: relative;
+	height: 260px;
+	background-image: url('chmury.jpg');
+	background-position: 60% 22%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.header-text{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white;
+	text-transform: uppercase;
+	text-shadow: 3px 3px 5px black;
+}
+.header-bg{
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,3,27,.4);
+}
+header h1{
+	margin-bottom: 10px;
+	font-size: 5rem;
+}
+main{
+	width: 60%;
+	margin: 50px auto;
+}
+.about-us-heading{
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 2.5rem;
+}
+section{
+	margin: 40px 0;
+}
+.about-us-section{
+	position: relative;
+	height: 300px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+.top{
+	background-image: url('kawa.jpg');
+}
+.middle{
+	background-image: url('pra.jpg');
+}
+.bottom{
+	background-image: url('anime.jpg');
+}
+.about-us-text{
+	position: absolute;
+	bottom: 20px;
+	padding: 20px 40px;
+	color: white;
+	z-index: 1;
+}
+.about-us-text h3{
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	font-size: 2rem;
+}
+.about-us-bg{
+	position: absolute;
+	bottom: 0;
+	background-color: rgba(0,0,0,.8);
+	height: 50%;
+	width: 100%;
+	border-bottom-right-radius: 50px;
+}
+footer{
+	height: 80px;
+	line-height: 80px;
+	background-color: rgb(54,54,54);
+	color: white;
+	text-align: center;
+	font-size: 18px;
+}
+footer p a{
+	text-decoration: none;
+	color: white;
+	margin-left: 7px;
+	transition: color 1s;
+}
+footer p a:hover{
+	color: blue;
+}

@@ -1,0 +1,52 @@
+C:\Users\student\Desktop\Mischke_PIAO\Mischke_PIAO\bin\Debug\Mischke_PIAO.exe.config
+C:\Users\student\Desktop\Mischke_PIAO\Mischke_PIAO\bin\Debug\Mischke_PIAO.exe
+C:\Users\student\Desktop\Mischke_PIAO\Mischke_PIAO\bin\Debug\Mischke_PIAO.pdb
+C:\Users\student\Desktop\Mischke_PIAO\Mischke_PIAO\obj\Debug\Mischke_PIAO.csproj.AssemblyReference.cache
+C:\Users\student\Desktop\Mischke_PIAO\Mischke_PIAO\obj\Debug\Mischke_PIAO.csproj.SuggestedBindingRedirects.cache
+C:\Users\student\Desktop\Mischke_PIAO\Mischke_PIAO\obj\Debug\Mischke_PIAO.Form1.resources
+C:\Users\student\Desktop\Mischke_PIAO\Mischke_PIAO\obj\Debug\Mischke_PIAO.Properties.Resources.resources
+C:\Users\student\Desktop\Mischke_PIAO\Mischke_PIAO\obj\Debug\Mischke_PIAO.csproj.GenerateResource.cache
+C:\Users\student\Desktop\Mischke_PIAO\Mischke_PIAO\obj\Debug\Mischke_PIAO.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\Mischke_PIAO\Mischke_PIAO\obj\Debug\Mischke_PIAO.exe
+C:\Users\student\Desktop\Mischke_PIAO\Mischke_PIAO\obj\Debug\Mischke_PIAO.pdb
+C:\Users\student\Downloads\Mischke_PIAO\Mischke_PIAO\Mischke_PIAO\bin\Debug\Mischke_PIAO.exe.config
+C:\Users\student\Downloads\Mischke_PIAO\Mischke_PIAO\Mischke_PIAO\bin\Debug\Mischke_PIAO.exe
+C:\Users\student\Downloads\Mischke_PIAO\Mischke_PIAO\Mischke_PIAO\bin\Debug\Mischke_PIAO.pdb
+C:\Users\student\Downloads\Mischke_PIAO\Mischke_PIAO\Mischke_PIAO\obj\Debug\Mischke_PIAO.csproj.AssemblyReference.cache
+C:\Users\student\Downloads\Mischke_PIAO\Mischke_PIAO\Mischke_PIAO\obj\Debug\Mischke_PIAO.Form1.resources
+C:\Users\student\Downloads\Mischke_PIAO\Mischke_PIAO\Mischke_PIAO\obj\Debug\Mischke_PIAO.Properties.Resources.resources
+C:\Users\student\Downloads\Mischke_PIAO\Mischke_PIAO\Mischke_PIAO\obj\Debug\Mischke_PIAO.csproj.GenerateResource.cache
+C:\Users\student\Downloads\Mischke_PIAO\Mischke_PIAO\Mischke_PIAO\obj\Debug\Mischke_PIAO.csproj.CoreCompileInputs.cache
+C:\Users\student\Downloads\Mischke_PIAO\Mischke_PIAO\Mischke_PIAO\obj\Debug\Mischke_PIAO.exe
+C:\Users\student\Downloads\Mischke_PIAO\Mischke_PIAO\Mischke_PIAO\obj\Debug\Mischke_PIAO.pdb
+C:\Users\Admin\Downloads\Mischke_PIAO\Mischke_PIAO\Mischke_PIAO\bin\Debug\Mischke_PIAO.exe.config
+C:\Users\Admin\Downloads\Mischke_PIAO\Mischke_PIAO\Mischke_PIAO\bin\Debug\Mischke_PIAO.exe
+C:\Users\Admin\Downloads\Mischke_PIAO\Mischke_PIAO\Mischke_PIAO\bin\Debug\Mischke_PIAO.pdb
+C:\Users\Admin\Downloads\Mischke_PIAO\Mischke_PIAO\Mischke_PIAO\obj\Debug\Mischke_PIAO.csprojAssemblyReference.cache
+C:\Users\Admin\Downloads\Mischke_PIAO\Mischke_PIAO\Mischke_PIAO\obj\Debug\Mischke_PIAO.Form1.resources
+C:\Users\Admin\Downloads\Mischke_PIAO\Mischke_PIAO\Mischke_PIAO\obj\Debug\Mischke_PIAO.Properties.Resources.resources
+C:\Users\Admin\Downloads\Mischke_PIAO\Mischke_PIAO\Mischke_PIAO\obj\Debug\Mischke_PIAO.csproj.GenerateResource.cache
+C:\Users\Admin\Downloads\Mischke_PIAO\Mischke_PIAO\Mischke_PIAO\obj\Debug\Mischke_PIAO.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\Mischke_PIAO\Mischke_PIAO\Mischke_PIAO\obj\Debug\Mischke_PIAO.exe
+C:\Users\Admin\Downloads\Mischke_PIAO\Mischke_PIAO\Mischke_PIAO\obj\Debug\Mischke_PIAO.pdb
+C:\Users\student\Downloads\Mischke_PIAO 1\Mischke_PIAO\Mischke_PIAO\Mischke_PIAO\bin\Debug\Mischke_PIAO.exe.config
+C:\Users\student\Downloads\Mischke_PIAO 1\Mischke_PIAO\Mischke_PIAO\Mischke_PIAO\bin\Debug\Mischke_PIAO.exe
+C:\Users\student\Downloads\Mischke_PIAO 1\Mischke_PIAO\Mischke_PIAO\Mischke_PIAO\bin\Debug\Mischke_PIAO.pdb
+C:\Users\student\Downloads\Mischke_PIAO 1\Mischke_PIAO\Mischke_PIAO\Mischke_PIAO\obj\Debug\Mischke_PIAO.csproj.AssemblyReference.cache
+C:\Users\student\Downloads\Mischke_PIAO 1\Mischke_PIAO\Mischke_PIAO\Mischke_PIAO\obj\Debug\Mischke_PIAO.csproj.SuggestedBindingRedirects.cache
+C:\Users\student\Downloads\Mischke_PIAO 1\Mischke_PIAO\Mischke_PIAO\Mischke_PIAO\obj\Debug\Mischke_PIAO.Form1.resources
+C:\Users\student\Downloads\Mischke_PIAO 1\Mischke_PIAO\Mischke_PIAO\Mischke_PIAO\obj\Debug\Mischke_PIAO.Properties.Resources.resources
+C:\Users\student\Downloads\Mischke_PIAO 1\Mischke_PIAO\Mischke_PIAO\Mischke_PIAO\obj\Debug\Mischke_PIAO.csproj.GenerateResource.cache
+C:\Users\student\Downloads\Mischke_PIAO 1\Mischke_PIAO\Mischke_PIAO\Mischke_PIAO\obj\Debug\Mischke_PIAO.csproj.CoreCompileInputs.cache
+C:\Users\student\Downloads\Mischke_PIAO 1\Mischke_PIAO\Mischke_PIAO\Mischke_PIAO\obj\Debug\Mischke_PIAO.exe
+C:\Users\student\Downloads\Mischke_PIAO 1\Mischke_PIAO\Mischke_PIAO\Mischke_PIAO\obj\Debug\Mischke_PIAO.pdb
+C:\Users\Admin\Downloads\Mischke_PIAO 1\Mischke_PIAO\Mischke_PIAO\Mischke_PIAO\bin\Debug\Mischke_PIAO.exe.config
+C:\Users\Admin\Downloads\Mischke_PIAO 1\Mischke_PIAO\Mischke_PIAO\Mischke_PIAO\bin\Debug\Mischke_PIAO.exe
+C:\Users\Admin\Downloads\Mischke_PIAO 1\Mischke_PIAO\Mischke_PIAO\Mischke_PIAO\bin\Debug\Mischke_PIAO.pdb
+C:\Users\Admin\Downloads\Mischke_PIAO 1\Mischke_PIAO\Mischke_PIAO\Mischke_PIAO\obj\Debug\Mischke_PIAO.csprojAssemblyReference.cache
+C:\Users\Admin\Downloads\Mischke_PIAO 1\Mischke_PIAO\Mischke_PIAO\Mischke_PIAO\obj\Debug\Mischke_PIAO.Form1.resources
+C:\Users\Admin\Downloads\Mischke_PIAO 1\Mischke_PIAO\Mischke_PIAO\Mischke_PIAO\obj\Debug\Mischke_PIAO.Properties.Resources.resources
+C:\Users\Admin\Downloads\Mischke_PIAO 1\Mischke_PIAO\Mischke_PIAO\Mischke_PIAO\obj\Debug\Mischke_PIAO.csproj.GenerateResource.cache
+C:\Users\Admin\Downloads\Mischke_PIAO 1\Mischke_PIAO\Mischke_PIAO\Mischke_PIAO\obj\Debug\Mischke_PIAO.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\Mischke_PIAO 1\Mischke_PIAO\Mischke_PIAO\Mischke_PIAO\obj\Debug\Mischke_PIAO.exe
+C:\Users\Admin\Downloads\Mischke_PIAO 1\Mischke_PIAO\Mischke_PIAO\Mischke_PIAO\obj\Debug\Mischke_PIAO.pdb

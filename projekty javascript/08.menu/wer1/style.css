@@ -1,0 +1,34 @@
+:root{
+    --radius: 0.5rem;
+    --clr-gold: #c59d5f;
+    --clr-grey-5: hsl(210, 22%, 49%);
+}
+  img {
+    display: block;
+  }
+  .menu-item {
+    display: grid;
+    gap: 1rem 2rem;
+    max-width: 25rem;
+  }
+  .photo {
+    object-fit: cover;
+    height: 200px;
+    border: 0.25rem solid var(--clr-gold);
+    border-radius: var(--radius);
+  }
+  .item-info header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5px dotted var(--clr-grey-5);
+  }
+  .item-info h4 {
+    margin-bottom: 0.5rem;
+  }
+  .price {
+    color: var(--clr-gold);
+  }
+  .item-text {
+    margin-bottom: 0;
+    padding-top: 1rem;
+  }

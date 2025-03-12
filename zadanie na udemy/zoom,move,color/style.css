@@ -1,0 +1,75 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	color: white;
+	background-color:#333;
+}
+button{
+	position: absolute;
+	top: 30px;
+	width: 120px;
+	padding: 10px 30px;
+	background-color: transparent;
+	color: white;
+	border: 1px solid white;
+	border-radius: 5px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: color 1s ,background-color 1s;
+}
+
+button:hover{
+	color: black;
+	background-color:white;
+}
+
+.btn-zoom{
+	left: calc(30% - 60px);
+}
+.btn-zoom:hover~.square{
+	width: 160px;
+	height: 160px;
+}
+.btn-move{
+	left: calc(50% - 60px);
+}
+.btn-move:hover~.square{
+	top: 300px;
+}
+.btn-color{
+	left: calc(70% - 60px);
+}
+.btn-color:hover~.square{
+	background-color: black;
+	border: 1px solid white;
+	box-shadow: none;
+}
+.square{
+	position: absolute;
+	top: 120px;
+	width: 100px;
+	height: 100px;
+	cursor: pointer;
+	border-radius: 25px;
+	transition: 1s;
+}
+.blue{
+	left: calc(30% - 50px);
+	background-color: blue;
+	box-shadow: 5px 5px 15px blue;
+}
+.red{
+	left: calc(50% - 50px);
+	background-color: red;
+	box-shadow: 5px 5px 15px red;
+}
+.green{
+	left: calc(70% - 50px);
+	background-color: green;
+	box-shadow: 5px 5px 15px green;
+}

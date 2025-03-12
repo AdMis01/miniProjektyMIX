@@ -1,0 +1,16 @@
+.question-text{
+    transition: .5s;
+    display: none;
+}
+.active .question-text{
+    display: block;
+}
+.minus-icon{
+    display: none;
+}
+.active .minus-icon{
+    display: inline;
+}
+.active .plus-icon{
+    display: none;
+}
